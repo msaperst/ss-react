@@ -1,0 +1,72 @@
+#blog-search-input {
+    width: 60%;
+}
+
+#saperstone-studios-navbar-nav {
+    z-index: 999;
+}
+
+#saperstone-studios-banner {
+    position: absolute;
+    z-index: 99;
+    top: -20px;
+    background: #eaeaea;
+}
+
+#saperstone-studios-banner img {
+    height: 100px;
+}
+
+#saperstone-studios-banner:after {
+    content: '';
+    float: left;
+    background: transparent;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 100px 0 0;
+    border-color: #eaeaea transparent transparent transparent;
+    top: 110px;
+    left: 0;
+    position: absolute;
+    -moz-transform: scale(.9999);
+    -webkit-transform: scale(.9999);
+    transform: scale(.9999);
+}
+
+#saperstone-studios-banner:before {
+    content: '';
+    float: left;
+    background: transparent;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 100px 20px 0;
+    border-color: transparent #eaeaea transparent transparent;
+    top: 110px;
+    right: 0;
+    position: absolute;
+    -moz-transform: scale(.9999);
+    -webkit-transform: scale(.9999);
+    transform: scale(.9999);
+}
+
+.navbar {
+    background-color: white;
+    border-top: 10px #980f7f solid;
+    border-bottom: 10px #980f7f solid;
+    margin-bottom: 10px;
+}
+
+.navbar:after {
+    position: absolute;
+    display: block;
+    content: '';
+    border-bottom: 5px #980f7f solid;
+    height: 100px;
+    left:0px;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}

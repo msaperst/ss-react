@@ -1,6 +1,23 @@
 {
   "name": "ss-react",
   "version": "0.1.0",
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 95,
+        "lines": 95
+      }
+    },
+    "coverageReporters": [
+      "lcov",
+      "text",
+      "cobertura"
+    ]
+  },
+  "jest-junit": {
+    "suiteName": "jest tests",
+    "output": "/coverage/junit.xml"
+  },
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
